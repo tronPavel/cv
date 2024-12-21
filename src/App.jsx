@@ -7,7 +7,7 @@ const App = () => {
       <aside className="max-md:relative">
         <img
           className="rounded-full max-md:mr-32 max-md:w-48  max-md:h-48 max-sm:mt-24"
-          src="/public/assets/photo.jpg"
+          src="assets/photo.jpg"
           alt="Profile"
         />
         <section className="max-md:w-5/12">
@@ -139,7 +139,7 @@ const App = () => {
             Created in react using class components
           </Card>
           <Card
-            imgUrl={"/public/assets/lamoda.gif"}
+            imgUrl={"assets/lamoda.gif"}
             title={"Lamoda"}
             keyWords={["React", "CSS"]}
             link={"https://github.com/tronPavel/lamoda.git"}
@@ -147,7 +147,7 @@ const App = () => {
             React is a project with multiple filtering of elements on a page.
           </Card>
           <Card
-            imgUrl={"/public/assets/filterablelist.gif"}
+            imgUrl={"assets/filterablelist.gif"}
             title={"Filterable list"}
             keyWords={["TypeScript", "CSS"]}
             link={"https://github.com/tronPavel/filterable-list.git"}
@@ -155,7 +155,7 @@ const App = () => {
             implementing a filtered list in pure typescript
           </Card>
           <Card
-            imgUrl={"/public/assets/notion.gif"}
+            imgUrl={"assets/notion.gif"}
             title={"Notion"}
             keyWords={[
               "React",
