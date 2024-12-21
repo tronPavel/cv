@@ -5,77 +5,81 @@ const App = () => {
   return (
     <div className="container">
       <aside className="max-md:relative">
-        <img className="rounded-full max-md:mr-32 max-md:w-48  max-md:h-48 max-sm:mt-24" src="/photo.jpg" alt="Profile" />
+        <img
+          className="rounded-full max-md:mr-32 max-md:w-48  max-md:h-48 max-sm:mt-24"
+          src="/assets/photo.jpg"
+          alt="Profile"
+        />
         <section className="max-md:w-5/12">
-        <h3 className="title">Contact</h3>
-        <ul>
-          <li>
-            <a
-              href="mailto:tronpavel184@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Email
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://t.me/tronpavel"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Telegram
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/tronPavel"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </li>
-        </ul>
-        </section>
-        <section className="max-md:w-5/12">
-        <h3 className="title">Skills</h3>
-        <ul className="list-disc ml-5 font-semibold">
-          <li>HTML, CSS, SCSS</li>
-          <li>JavaScript, TypeScript</li>
-          <li>React, Redux</li>
-          <li>TailwindCSS</li>
-          <li>Git</li>
-          <li>Rest API</li>
-        </ul>
-        </section>
-        <section className="max-md:w-5/12">
-        <h3 className="title">Education</h3>
-        <ul>
-          <li>
-            <b>Belarusian State University - </b>
-            Faculty of Mechanics and Mathematics
-          </li>
-        </ul>
-        </section>
-        <section className="max-md:w-5/12">
-        <h3 className="title">Languages</h3>
-        <dl>
+          <h3 className="title">Contact</h3>
           <ul>
             <li>
-              <b>English:</b> B2
+              <a
+                href="mailto:tronpavel184@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Email
+              </a>
             </li>
             <li>
-              <b>Russian:</b> native
+              <a
+                href="https://t.me/tronpavel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Telegram
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/tronPavel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
             </li>
           </ul>
-        </dl>
+        </section>
+        <section className="max-md:w-5/12">
+          <h3 className="title">Skills</h3>
+          <ul className="list-disc ml-5 font-semibold">
+            <li>HTML, CSS, SCSS</li>
+            <li>JavaScript, TypeScript</li>
+            <li>React, Redux</li>
+            <li>TailwindCSS</li>
+            <li>Git</li>
+            <li>Rest API</li>
+          </ul>
+        </section>
+        <section className="max-md:w-5/12">
+          <h3 className="title">Education</h3>
+          <ul>
+            <li>
+              <b>Belarusian State University - </b>
+              Faculty of Mechanics and Mathematics
+            </li>
+          </ul>
+        </section>
+        <section className="max-md:w-5/12">
+          <h3 className="title">Languages</h3>
+          <dl>
+            <ul>
+              <li>
+                <b>English:</b> B2
+              </li>
+              <li>
+                <b>Russian:</b> native
+              </li>
+            </ul>
+          </dl>
         </section>
       </aside>
       <main className="max-md:pt-0">
         <section className="max-md:absolute max-md:top-32 max-sm:top-16 max-sm:left-28 max-sm:right-0 max-md:right-28 max-md:text-white">
-        <h1 className="text-5xl font-semibold">Tron Pavel</h1>
-        <h2 className="font-semibold">Frontend Developer</h2>
+          <h1 className="text-5xl font-semibold">Tron Pavel</h1>
+          <h2 className="font-semibold">Frontend Developer</h2>
         </section>
         <section>
           <h3 className="title">About me</h3>
@@ -126,7 +130,7 @@ const App = () => {
         <section>
           <h3 className="title">Portfolio</h3>
           <Card
-            imgUrl={"/todolist.gif"}
+            imgUrl={"assets//todolist.gif"}
             title={"Todolist"}
             keyWords={["React", "CSS"]}
             link={"https://github.com/tronPavel/todolist.git"}
@@ -135,7 +139,7 @@ const App = () => {
             Created in react using class components
           </Card>
           <Card
-            imgUrl={"/lamoda.gif"}
+            imgUrl={"/assets/lamoda.gif"}
             title={"Lamoda"}
             keyWords={["React", "CSS"]}
             link={"https://github.com/tronPavel/lamoda.git"}
@@ -143,7 +147,7 @@ const App = () => {
             React is a project with multiple filtering of elements on a page.
           </Card>
           <Card
-            imgUrl={"/filterablelist.gif"}
+            imgUrl={"/assets/filterablelist.gif"}
             title={"Filterable list"}
             keyWords={["TypeScript", "CSS"]}
             link={"https://github.com/tronPavel/filterable-list.git"}
@@ -151,7 +155,7 @@ const App = () => {
             implementing a filtered list in pure typescript
           </Card>
           <Card
-            imgUrl={"/notion.gif"}
+            imgUrl={"/assets/notion.gif"}
             title={"Notion"}
             keyWords={[
               "React",
