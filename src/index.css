@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply max-xl:max-w-full max-w-[80%] mx-auto  text-xl flex max-md:flex-col;
+}
+aside {
+  @apply max-md:w-full bg-green text-white p-16 max-md:flex max-md:flex-wrap max-md:gap-8 max-sm:flex-col;
+}
+main {
+  @apply text-dark shadow-md bg-white p-16;
+}
+body {
+  @apply bg-slate-300;
+}
+.title {
+  @apply mt-16 mb-8 text-3xl font-semibold relative after:content-[''] after:block after:w-16 after:h-1 after:bg-current after:rounded-full after:mt-1;
+}
+a{
+  @apply underline text-amber-300
+}
+ul{
+  @apply mb-3
+}
+
