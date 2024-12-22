@@ -6,7 +6,7 @@ const App = () => {
     <div className="container">
       <aside className="max-md:relative">
         <img
-          className="rounded-full max-md:mr-32 max-md:w-48  max-md:h-48 max-sm:mt-24"
+          className="rounded-full max-md:mr-36 max-md:w-48  max-md:h-48 max-sm:mt-24"
           src="assets/photo.jpg"
           alt="Profile"
         />
@@ -77,7 +77,7 @@ const App = () => {
         </section>
       </aside>
       <main className="max-md:pt-0">
-        <section className="max-md:absolute max-md:top-32 max-sm:top-16 max-sm:left-28 max-sm:right-0 max-md:right-28 max-md:text-white">
+        <section className="max-md:absolute max-md:top-32 max-sm:top-16 max-sm:left-16 max-sm:right-0 max-md:right-28 max-md:text-white">
           <h1 className="text-5xl font-semibold">Tron Pavel</h1>
           <h2 className="font-semibold">Frontend Developer</h2>
         </section>
