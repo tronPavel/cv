@@ -67,7 +67,7 @@ const App = () => {
           <dl>
             <ul>
               <li>
-                <b>English:</b> B2
+                <b>English:</b> A2
               </li>
               <li>
                 <b>Russian:</b> native
