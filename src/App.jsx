@@ -84,7 +84,7 @@ const App = () => {
         <section>
           <h3 className="title">About me</h3>
           <p>
-            Aspiring Frontend Developer and second-year Computer Science student
+            Aspiring Frontend Developer and third-year Computer Science student
             with a passion for building interactive and user-centric web
             applications. I have developed a solid foundation in HTML, CSS, and
             JavaScript through self-directed learning and practical projects.
